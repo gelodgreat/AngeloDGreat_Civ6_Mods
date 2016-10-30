@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Improvements>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+            <Set BuildInLine="true" BuildOnFrontier="false" CanBuildOutsideTerritory="true"/>
+        </Update>
+    </Improvements>
+</GameInfo>

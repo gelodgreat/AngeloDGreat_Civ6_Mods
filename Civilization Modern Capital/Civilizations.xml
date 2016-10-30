@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<CivilizationLeaders>
+        <Update>
+            <Where CivilizationType="CIVILIZATION_RUSSIA" LeaderType="LEADER_PETER_GREAT" CapitalName="LOC_CITY_NAME_ST_PETERSBURG"/>
+            <Set CapitalName="LOC_CITY_NAME_MOSCOW"/>
+        </Update>
+		
+		 <Update>
+            <Where CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_HOJO" CapitalName="LOC_CITY_NAME_KYOTO"/>
+            <Set CapitalName="LOC_CITY_NAME_TOKYO"/>
+        </Update>
+		
+		<Update>
+            <Where CivilizationType="CIVILIZATION_GERMANY" LeaderType="LEADER_BARBAROSSA" CapitalName="LOC_CITY_NAME_AACHEN"/>
+            <Set CapitalName="LOC_CITY_NAME_BERLIN"/>
+        </Update>
+		
+    </CivilizationLeaders>
+</GameInfo>

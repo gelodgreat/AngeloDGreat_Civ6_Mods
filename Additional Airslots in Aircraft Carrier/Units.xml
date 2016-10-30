@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Units>
+        <Update>
+            <Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+            <Set AirSlots="4"/>
+        </Update>
+    </Units>
+</GameInfo>
