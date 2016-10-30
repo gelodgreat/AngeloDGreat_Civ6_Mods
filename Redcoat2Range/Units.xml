@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Units>
+		<Update>
+			   <Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			   <Set Range="2" RangedCombat="50" PrereqTech="TECH_GUNPOWDER"/>
+		</Update>
+    </Units>
+</GameInfo>
