@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id ="ad444c6b-7e5e-4adc-b0d6-74e43b444b77">
+	<Properties>
+		<Name>No Near Border Penalty</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>No Near Border Penalty</Teaser>
+		<Description>No Near Border Penalty because AI sucks</Description>
+		<Authors>AngeloDGreat</Authors>
+	</Properties>
+	<Files>
+		<File>Leaders.xml</File>
+	</Files>
+	
+	<Settings>
+		<Custom id="NoNearBorderPenalty">
+			<Items>
+				<Component>NoNearBorderPenaltyComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Components>
+		<UpdateDatabase id="NoNearBorderPenaltyComponent">
+			<Properties>
+				<Name>LOC_NEAR_BORDER_PENALTY_NAME</Name>
+			</Properties>
+			<Items>
+				<File>Leaders.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>
