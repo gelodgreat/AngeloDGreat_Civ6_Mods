@@ -5,5 +5,10 @@
             <Where ImprovementType="IMPROVEMENT_GREAT_WALL"/>
             <Set BuildInLine="true" BuildOnFrontier="false" CanBuildOutsideTerritory="true"/>
         </Update>
+		
     </Improvements>
+	
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" FeatureType="FEATURE_FLOODPLAINS" />
+	</Improvement_ValidFeatures>
 </GameInfo>
