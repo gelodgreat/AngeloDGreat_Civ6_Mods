@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="SIB_IGNORE_BORDERS">
+			<Text>Units Ignore Borders</Text>
+		</Row>
+		<Row Tag="SIB_IGNORE_BORDERS_DESCRIPTION">
+			<Text>Abilities of Recon and Stealth units to ignore borders</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id ="2e2bb1c8-7777-4b4b-b25d-4fff298b186e">
+	<Properties>
+		<Name>Scout Ignore Borders</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Scouts , Stealth type units ignore borders</Teaser>
+		<Description>Allows Scouts,Range,Seadogs,Privateer,Submarines,Nuclear Submarines to ignore borders</Description>
+		<Authors>AngeloDGreat</Authors>
+		<SpecialThanks>gyogen2</SpecialThanks>
+	</Properties>
+	<Files>
+		<File>UnitAbilities.xml</File>
+	</Files>
+	
+	<Settings>
+		<Custom id="ScoutIgnoreBorders">
+			<Items>
+				<Component>ScoutIgnoreBordersComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Components>
+		<UpdateDatabase id="ScoutIgnoreBordersComponent">
+			<Properties>
+				<Name>LOC_ScoutIgnoreBordersComponent_NAME</Name>
+			</Properties>
+			<Items>
+				<File>UnitAbilities.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>
