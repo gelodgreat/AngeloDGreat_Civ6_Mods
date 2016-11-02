@@ -16,5 +16,9 @@
             <Set CapitalName="LOC_CITY_NAME_BERLIN"/>
         </Update>
 		
+		<Update>
+            <Where CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_QIN" CapitalName="LOC_CITY_NAME_XIAN"/>
+            <Set CapitalName="LOC_CITY_NAME_BEIJING"/>
+        </Update>
     </CivilizationLeaders>
 </GameInfo>
