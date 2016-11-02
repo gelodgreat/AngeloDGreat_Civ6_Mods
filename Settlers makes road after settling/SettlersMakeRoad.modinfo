@@ -4,8 +4,10 @@
 	<Name>Roads to Capital after settled city</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>Gives all Civilization to have an ability to make roads to capital.</Teaser>
-		<Description>Gives all Civilization to have an ability to make roads to capital. Like All Roads to Rome</Description>
+		<Description>Gives all Civilization to have an ability to make roads to capital. Like All Roads to Rome. Added Pax Britannica to Rome as Secondary
+		Unique Trait.</Description>
 		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
 	
 	<Settings>

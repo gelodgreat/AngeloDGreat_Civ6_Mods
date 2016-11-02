@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3fce80e0-9fde-43f1-b6fc-548ff2551f58">
+	<Properties>
+		<Name>No Penalty Different Government</Name>
+		<Stability>Beta</Stability>
+		<Teaser>Removes Different Government Penalty</Teaser>
+		<Description>Removes Different Government Penalty. Because AI will always denounced you for having different government and it's silly.</Description>
+		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>JFD, and all modders</SpecialThanks>
+	</Properties>
+	
+	<Settings>
+		<Custom id="DiffGov_Penalty">
+			<Items>
+				<Component>DiffGov_PenaltyComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Files>
+		<File>NoPenaltyDiffGov.sql</File>
+	</Files>
+	
+	<Components>
+		<UpdateDatabase id="DiffGov_PenaltyComponent">
+			<Items>
+				<File>NoPenaltyDiffGov.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>

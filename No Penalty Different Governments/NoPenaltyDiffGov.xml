@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Governments>
+	<!--You can replace 0 with a negative modifier if you want more balance.-->
+        <Update>
+            <Where GovernmentType="GOVERNMENT_AUTOCRACY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_OLIGARCHY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		<Update>
+            <Where GovernmentType="GOVERNMENT_MONARCHY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_THEOCRACY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_FASCISM"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_COMMUNISM"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_DEMOCRACY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
+		
+<!--JFD Governments you can remove this lines below if you're not playing with JFD's Rule of Faith-->		
+		 <Update>
+            <Where GovernmentType="GOVERNMENT_JFD_ABSOLUTE_MONARCHY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>	
+		<Update>
+            <Where GovernmentType="GOVERNMENT_JFD_CONSTITUTIONAL_MONARCHY"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>	
+		<Update>
+            <Where GovernmentType="GOVERNMENT_JFD_NOBLE_REPUBLIC"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>	
+		
+	</Governments>
+</GameInfo>
