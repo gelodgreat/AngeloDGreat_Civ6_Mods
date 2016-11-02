@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23">
+	<Properties>
+	<Name>Roads to Capital after settled city</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Gives all Civilization to have an ability to make roads to capital.</Teaser>
+		<Description>Gives all Civilization to have an ability to make roads to capital. Like All Roads to Rome</Description>
+		<Authors>GeloDGreat</Authors>
+	</Properties>
+	
+	<Settings>
+		<Custom id="GDG_RoadsAfterSettling">
+			<Items>
+				<Component>GDG_RoadsAfterSettlingComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Files>
+		<File>GDG_RoadsAfterSettling.xml</File>
+	</Files>
+	
+	<Components>
+		<UpdateDatabase id="GDG_RoadsAfterSettlingComponent">
+			<Items>
+				<File>GDG_RoadsAfterSettling.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	
+	
+</Mod>
