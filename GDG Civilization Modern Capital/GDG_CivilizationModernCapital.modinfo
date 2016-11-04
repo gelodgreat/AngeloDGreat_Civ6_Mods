@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id ="d76b7a09-9834-46a6-b1ee-2b5165f57fbf">
 	<Properties>
-		<Name>Modern Capital</Name>
+		<Name>GDG's Modern Capital</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>Modern Capitals of the World</Teaser>
 		<Description>Replaces the default capital with the modern capital</Description>
-		<Authors>AngeloDGreat</Authors>
+		<Authors>GeloDGreat</Authors>
 	</Properties>
 	<Files>
-		<File>Civilizations.xml</File>
+		<File>GDG_Civilizations.xml</File>
 	</Files>
 	
 	<Settings>
@@ -25,7 +25,7 @@
 				<Name>LOC_MODERN_CAPITAL_NAME</Name>
 			</Properties>
 			<Items>
-				<File>Civilizations.xml</File>
+				<File>GDG_Civilizations.xml</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>

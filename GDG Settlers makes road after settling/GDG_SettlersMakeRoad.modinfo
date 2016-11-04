@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23">
+
 	<Properties>
-	<Name>Roads to Capital after settled city</Name>
+	<Name>GDG's Roads to Capital after settled city</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>Gives all Civilization to have an ability to make roads to capital.</Teaser>
 		<Description>Gives all Civilization to have an ability to make roads to capital. Like All Roads to Rome. Added Pax Britannica to Rome as Secondary
@@ -9,6 +10,10 @@
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
+	
+	<!-- <References> -->
+		<!-- <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" minversion="0" maxversion="999" title="Aztecs"> -->
+	<!-- </References> -->
 	
 	<Settings>
 		<Custom id="GDG_RoadsAfterSettling">

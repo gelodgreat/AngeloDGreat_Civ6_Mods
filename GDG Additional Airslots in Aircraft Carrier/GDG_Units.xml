@@ -3,7 +3,7 @@
 	<Units>
         <Update>
             <Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
-            <Set AirSlots="4"/>
+            <Set AirSlots="5"/>
         </Update>
     </Units>
 </GameInfo>

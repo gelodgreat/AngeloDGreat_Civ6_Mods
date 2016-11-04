@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id ="ad444c6b-7e5e-4adc-b0d6-74e43b444b77">
 	<Properties>
-		<Name>No Near Border Penalty</Name>
+		<Name>GDG's No Near Border Penalty</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>No Near Border Penalty</Teaser>
 		<Description>No Near Border Penalty because AI sucks</Description>
-		<Authors>AngeloDGreat</Authors>
+		<Authors>GeloDGreat</Authors>
 	</Properties>
 	<Files>
 		<File>Leaders.xml</File>

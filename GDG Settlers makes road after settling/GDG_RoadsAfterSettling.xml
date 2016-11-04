@@ -19,6 +19,7 @@
 		<Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME"/>
 		<Row CivilizationType="CIVILIZATION_SUMERIA" TraitType="TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME"/>
 		<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_LEADER_PAX_BRITANNICA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME"/>
 		<!--<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME"/>-->
 	</CivilizationTraits>
 </GameData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id ="35e7f186-0dac-47f5-b805-475d371e157f">
+	<Properties>
+		<Name>GDG's Additional AirSlots for Aircraft Carrier</Name>
+		<Stability>Beta</Stability>
+		<Teaser>Adds AirSlots for Aircraft Carrier</Teaser>
+		<Description>Changeable slots for Aircraft Carrier. Default is 5.</Description>
+		<Authors>GeloDGreat</Authors>
+	</Properties>
+	
+	<Files>
+		<File>GDG_Units.xml</File>
+	</Files>
+	
+	<Settings>
+		<Custom id="AdditionalAirSlots">
+			<Items>
+				<Component>AdditionalAirSlotsComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Components>
+		<UpdateDatabase id="AdditionalAirSlotsComponent">
+			<Properties>
+				<Name>LOC_FOUR_AIRSLOTS_CARRIER_NAME</Name>
+			</Properties>
+			<Items>
+				<File>GDG_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>

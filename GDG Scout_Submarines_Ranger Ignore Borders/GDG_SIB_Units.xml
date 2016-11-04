@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<Tags>
+		<Row Tag="CLASS_IGNOREBORDERS" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_SCOUT" Tag="CLASS_IGNOREBORDERS"/>
+		<Row Type="UNIT_RANGER" Tag="CLASS_IGNOREBORDERS"/>
+		<Row Type="UNIT_SUBMARINE" Tag="CLASS_IGNOREBORDERS"/>
+		<Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_IGNOREBORDERS"/>
+	</TypeTags>
+</GameInfo>

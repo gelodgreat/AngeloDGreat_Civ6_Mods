@@ -1,0 +1,22 @@
+<GameInfo>
+
+
+	<Types>
+		<Row Type="ABILITY_CRXBORDER" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_CRXBORDER" Tag="CLASS_IGNOREBORDERS"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_CRXBORDER" Name="SIB_IGNORE_BORDERS" Description="SIB_IGNORE_BORDERS_DESCRIPTION"/>
+	</UnitAbilities>
+<!-- -->
+	<UnitAbilityModifiers>
+		<Row>
+		<UnitAbilityType>ABILITY_CRXBORDER</UnitAbilityType>
+		<ModifierId>MOD_ENTER_FOREIGN_LANDS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+
+</GameInfo>

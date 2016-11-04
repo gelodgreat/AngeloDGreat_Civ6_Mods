@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id ="08c1b535-664f-4c45-8e3a-14491300dc3e">
 	<Properties>
-		<Name>Great Wall build Outside Territory</Name>
+		<Name>GDG's Great Wall build Outside Territory</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>Build the Great Wall Outside your Territory</Teaser>
 		<Description>Build the Great Wall Outside your Territory</Description>
-		<Authors>AngeloDGreat</Authors>
+		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>Gedemon,Cyphose,ledomaine</SpecialThanks>
 	</Properties>
 	<Files>
-		<File>Improvements.xml</File>
+		<File>GDG_Improvements.xml</File>
 	</Files>
 	
 	<Settings>
@@ -26,7 +26,7 @@
 				<Name>LOC_OUTSIDE_GREATWALL_COMPONENT_NAME</Name>
 			</Properties>
 			<Items>
-				<File>Improvements.xml</File>
+				<File>GDG_Improvements.xml</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>
