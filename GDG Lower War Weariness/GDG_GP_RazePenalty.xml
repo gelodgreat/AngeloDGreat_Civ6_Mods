@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<ModifierArguments>
+		<!-- Default Value = -20 -->
+		 <Update>
+            <Where ModifierId="WARMONGER_RAZE_PENALTY_PERCENT" Name="InitialValue"/>
+            <Set Value="-5"/>
+         </Update>		
+		 <!-- Default Value = 20 -->
+		 <Update>
+            <Where ModifierId="STANDARD_DIPLOMATIC_RAZED_MY_CITY" Name="ReductionTurns"/>
+            <Set Value="5"/>
+         </Update>		
+		 <!-- Default Value = -1 -->
+		 <Update>
+            <Where ModifierId="STANDARD_DIPLOMATIC_RAZED_MY_CITY" Name="ReductionValue"/>
+            <Set Value="-1"/>
+         </Update>		
+	</ModifierArguments>
+</GameInfo>
