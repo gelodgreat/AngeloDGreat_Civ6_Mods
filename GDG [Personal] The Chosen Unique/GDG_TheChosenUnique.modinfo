@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919">
+
+	<Properties>
+	<Name>GDG's The Chosen Unique</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Gives Civilization a type of uniques.</Teaser>
+		<Description>Gives Civilization a type of uniques from other civs.</Description>
+		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>All modders who share their mods.</SpecialThanks>
+	</Properties>
+	
+	<Settings>
+		<Custom id="GDG_TheChosenUnique">
+			<Items>
+				<Component>GDG_TheChosenUniqueomponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Files>
+		<File>GDG_TheChosenUnique.xml</File>
+	</Files>
+	
+	<Components>
+		<UpdateDatabase id="GDG_TheChosenUniqueomponent">
+			<Items>
+				<File>GDG_TheChosenUnique.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	
+	
+</Mod>
