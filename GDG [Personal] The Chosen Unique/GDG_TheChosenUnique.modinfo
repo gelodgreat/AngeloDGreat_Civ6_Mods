@@ -10,6 +10,10 @@
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
 	
+	<References>
+		<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" minversion="0" maxversion="999" title="All Civs have Roads Lead to Capital" />
+	</References>
+	
 	<Settings>
 		<Custom id="GDG_TheChosenUnique">
 			<Items>

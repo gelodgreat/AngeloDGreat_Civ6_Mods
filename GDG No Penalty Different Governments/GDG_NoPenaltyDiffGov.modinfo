@@ -11,7 +11,7 @@
 	
 	<References>
 		<Mod id="c4eba32b-d437-4930-89ed-3b4c9d35905b" minversion="0" maxversion="999" title="JFD's Rule with Faith" />
-	</References>
+   </References>
 	
 	<Settings>
 		<Custom id="DiffGov_Penalty">
