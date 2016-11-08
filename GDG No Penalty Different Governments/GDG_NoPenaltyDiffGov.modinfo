@@ -14,9 +14,9 @@
    </References>
 	
 	<Settings>
-		<Custom id="DiffGov_Penalty">
+		<Custom id="GDG_NoPenaltyDiffGov">
 			<Items>
-				<Component>DiffGov_PenaltyComponent</Component>
+				<Component>GDG_NoPenaltyDiffGovComponent</Component>
 			</Items>
 		</Custom>
 	</Settings>
@@ -26,7 +26,7 @@
 	</Files>
 	
 	<Components>
-		<UpdateDatabase id="DiffGov_PenaltyComponent">
+		<UpdateDatabase id="GDG_NoPenaltyDiffGovComponent">
 			<Items>
 				<File>GDG_NoPenaltyDiffGov.sql</File>
 			</Items>

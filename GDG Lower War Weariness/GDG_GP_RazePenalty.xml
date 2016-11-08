@@ -16,5 +16,17 @@
             <Where ModifierId="STANDARD_DIPLOMATIC_RAZED_MY_CITY" Name="ReductionValue"/>
             <Set Value="-1"/>
          </Update>		
+		 
+	 <!-- WARMONGER REDUCTION  -->
+		  <Update>
+            <Where ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="ReductionTurns"/>
+            <Set Value="1"/>
+         </Update>		
+		 
+		  <Update>
+            <Where ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="InitialValue"/>
+            <Set Value="-1"/>
+         </Update>		
+		</Row>
 	</ModifierArguments>
 </GameInfo>
