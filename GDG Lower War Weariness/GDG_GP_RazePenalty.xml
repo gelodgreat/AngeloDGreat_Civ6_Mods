@@ -24,7 +24,7 @@
          </Update>		
 		 
 		  <Update>
-            <Where ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="InitialValue"/>
+            <Where ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="ReductionValue"/>
             <Set Value="-1"/>
          </Update>		
 		</Row>
