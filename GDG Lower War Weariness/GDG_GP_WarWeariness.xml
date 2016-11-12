@@ -54,6 +54,19 @@
             <Where Name="WARMONGER_RAZE_PENALTY_PERCENT"/>
             <Set Value="10"/>
          </Update>	
+		 
+		 <!-- Default = 2000 -->
+		 <Update>
+            <Where Name="WAR_WEARINESS_DECAY_PEACE_DECLARED"/>
+            <Set Value="5000"/>
+         </Update>	
+		 
+		  <!-- Default = 200 -->
+		 <Update>
+            <Where Name="WAR_WEARINESS_DECAY_TURN_AT_PEACE"/>
+            <Set Value="500"/>
+         </Update>	
+		 
 	</GlobalParameters>
 	
 	<!-- <ModifierArguments> -->
