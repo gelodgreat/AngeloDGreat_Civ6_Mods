@@ -13,5 +13,19 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_DESCRIPTION">
 			<Text>Provides another set of heavy calvalry units.</Text>
 		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_NAME">
+			<Text>70 Percent Border Growth</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_DESCRIPTION">
+			<Text>Faster Border growth with a value of 70 Percent.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MANY_BUILDER_CHARGE_NAME">
+			<Text>Many Builder Charge</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MANY_BUILDER_CHARGE_DESCRIPTION">
+			<Text>Gives builder a super many charge.</Text>
+		</Row>
 	</BaseGameText>
 </GameData>
