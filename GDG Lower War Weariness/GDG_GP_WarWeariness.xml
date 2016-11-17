@@ -31,18 +31,6 @@
             <Where Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_AT_WAR_CITY"/>
             <Set Value="0"/>
          </Update>	
-		 <!-- Did not understand -->
-		  <!-- Default = 200 -->
-		  <!-- <Update> -->
-            <!-- <Where Name="WAR_WEARINESS_DECAY_TURN_AT_PEACE"/> -->
-            <!-- <Set Value="100"/> -->
-         <!-- </Update>	 -->
-		  <!-- Default = 50 -->
-		  <!-- <Update> -->
-            <!-- <Where Name="WAR_WEARINESS_DECAY_TURN_AT_WAR"/> -->
-            <!-- <Set Value="25"/> -->
-         <!-- </Update>	 -->
-		 
 		  <!-- Default = 16 -->
 		  <Update>
             <Where Name="WAR_WEARINESS_WARMONGER_BASE"/>
@@ -69,23 +57,7 @@
 		 
 	</GlobalParameters>
 	
-	<!-- <ModifierArguments> -->
-		<!-- Default Value = -20 -->
-		 <!-- <Update> -->
-            <!-- <Where ModifierId="WARMONGER_RAZE_PENALTY_PERCENT" Name="InitialValue"/> -->
-            <!-- <Set Value="-5"/> -->
-         <!-- </Update>		 -->
-		 <!-- Default Value = 20 -->
-		 <!-- <Update> -->
-            <!-- <Where ModifierId="STANDARD_DIPLOMATIC_RAZED_MY_CITY" Name="ReductionTurns"/> -->
-            <!-- <Set Value="5"/> -->
-         <!-- </Update>		 -->
-		 <!-- Default Value = -1 -->
-		 <!-- <Update> -->
-            <!-- <Where ModifierId="STANDARD_DIPLOMATIC_RAZED_MY_CITY" Name="ReductionValue"/> -->
-            <!-- <Set Value="-1"/> -->
-         <!-- </Update>		 -->
-	<!-- </ModifierArguments> -->
+
 	
 	
 	

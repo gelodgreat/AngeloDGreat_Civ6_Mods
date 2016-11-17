@@ -2,6 +2,10 @@
 <GameInfo>
 	<Governments>
 	<!--You can replace 0 with a negative modifier if you want more balance.-->
+		<Update>
+            <Where GovernmentType="GOVERNMENT_CHIEFDOM"/>
+            <Set OtherGovernmentIntolerance="0"/>
+        </Update>
         <Update>
             <Where GovernmentType="GOVERNMENT_AUTOCRACY"/>
             <Set OtherGovernmentIntolerance="0"/>

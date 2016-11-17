@@ -22,13 +22,13 @@
 	</Settings>
 	
 	<Files>
-		<File>GDG_NoPenaltyDiffGov.sql</File>
+		<File>GDG_NoPenaltyDiffGov.xml</File>
 	</Files>
 	
 	<Components>
 		<UpdateDatabase id="GDG_NoPenaltyDiffGovComponent">
 			<Items>
-				<File>GDG_NoPenaltyDiffGov.sql</File>
+				<File>GDG_NoPenaltyDiffGov.xml</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>
