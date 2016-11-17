@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
-
 	<LeaderTraits>
 		<Delete LeaderType="LEADER_HOJO"/>
 		
@@ -85,7 +84,11 @@
 		<!-- FROM AZTEC -->
 		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/>
 		
+		
 	</CivilizationTraits>
+	
+	
+	
 	
 		
 </GameInfo>

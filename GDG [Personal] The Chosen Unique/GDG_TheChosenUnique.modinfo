@@ -24,12 +24,16 @@
 	
 	<Files>
 		<File>GDG_TheChosenUnique.xml</File>
+		<File>GDG_TheChosenUniqueTraits.xml</File>
+		<File>GDG_TheChosenUniqueTraitsText.xml</File>
 	</Files>
 	
 	<Components>
 		<UpdateDatabase id="GDG_TheChosenUniqueomponent">
 			<Items>
 				<File>GDG_TheChosenUnique.xml</File>
+				<File>GDG_TheChosenUniqueTraits.xml</File>
+				<File>GDG_TheChosenUniqueTraitsText.xml</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>

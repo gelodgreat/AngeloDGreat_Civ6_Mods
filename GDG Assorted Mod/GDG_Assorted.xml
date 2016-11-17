@@ -77,12 +77,12 @@
 		<!-- FORMS A CORPS -->
 		 <Update>
             <Where CommandType="UNITCOMMAND_FORM_CORPS"/>
-            <Set PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+            <Set PrereqCivic="CIVIC_MILITARY_TRAINING"/>
          </Update>
 		 <!-- FORMS AN ARMY -->
 		 <Update>
             <Where CommandType="UNITCOMMAND_FORM_ARMY"/>
-            <Set PrereqCivic="CIVIC_EXPLORATION"/>
+            <Set PrereqCivic="CIVIC_CIVIL_SERVICE"/>
          </Update>
 	</UnitCommands>
 	
@@ -118,7 +118,7 @@
 		 
 		 <Update>
             <Where BuildingType="BUILDING_MILITARY_ACADEMY"/>
-            <Set PrereqTech="TECH_MILITARY_ENGINEERING"/>
+            <Set PrereqTech="TECH_MILITARY_TACTICS"/>
          </Update>
 		 
 		 <Update>

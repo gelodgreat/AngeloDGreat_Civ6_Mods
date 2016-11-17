@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY" Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_MELEE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_HEAVY_CAVALRY_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_MELEE_UNIT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_MELEE_UNIT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_HEAVY_CAVALRY_UNIT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_HEAVY_CAVALRY_UNIT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	
+	
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT" Name="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_NAME" Description="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY" Name="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_NAME" Description="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION"/>
+	</Traits>
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT</TraitType>
+			<ModifierId>TRAIT_EXTRA_MELEE_UNIT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY</TraitType>
+			<ModifierId>TRAIT_EXTRA_HEAVY_CAVALRY_UNIT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	
+	
+	<CivilizationTraits>
+	<!-- TESTS -->
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY"/>
+	</CivilizationTraits>
+</GameInfo>
