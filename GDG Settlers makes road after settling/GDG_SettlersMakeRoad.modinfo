@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23">
+<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" version="1.5.1">
 
 	<Properties>
 	<Name>GDG's Roads to Capital after settled city</Name>
@@ -24,13 +24,13 @@
 	</Settings>
 	
 	<Files>
-		<File>GDG_RoadsAfterSettling.xml</File>
+		<File>GDG_RoadsAfterSettling.sql</File>
 	</Files>
 	
 	<Components>
 		<UpdateDatabase id="GDG_RoadsAfterSettlingComponent">
 			<Items>
-				<File>GDG_RoadsAfterSettling.xml</File>
+				<File>GDG_RoadsAfterSettling.sql</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>

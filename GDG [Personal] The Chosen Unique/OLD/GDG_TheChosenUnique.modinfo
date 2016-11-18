@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.1.5">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919">
 
 	<Properties>
 	<Name>GDG's The Chosen Unique</Name>
@@ -17,23 +17,23 @@
 	<Settings>
 		<Custom id="GDG_TheChosenUnique">
 			<Items>
-				<Component>GDG_TheChosenUniqueComponent</Component>
+				<Component>GDG_TheChosenUniqueomponent</Component>
 			</Items>
 		</Custom>
 	</Settings>
 	
 	<Files>
-		<File>GDG_TheChosenUnique.sql</File>
-		<File>GDG_TheChosenUniqueTraits.sql</File>
-		<File>GDG_TheChosenUniqueTraitsText.sql</File>
+		<File>GDG_TheChosenUnique.xml</File>
+		<File>GDG_TheChosenUniqueTraits.xml</File>
+		<File>GDG_TheChosenUniqueTraitsText.xml</File>
 	</Files>
 	
 	<Components>
-		<UpdateDatabase id="GDG_TheChosenUniqueComponent">
+		<UpdateDatabase id="GDG_TheChosenUniqueomponent">
 			<Items>
-				<File>GDG_TheChosenUnique.sql</File>
-				<File>GDG_TheChosenUniqueTraits.sql</File>
-				<File>GDG_TheChosenUniqueTraitsText.sql</File>
+				<File>GDG_TheChosenUnique.xml</File>
+				<File>GDG_TheChosenUniqueTraits.xml</File>
+				<File>GDG_TheChosenUniqueTraitsText.xml</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>
