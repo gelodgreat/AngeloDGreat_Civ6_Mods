@@ -8,3 +8,5 @@ INSERT INTO BaseGameText (Tag,Text) VALUES ('LOC_TRAIT_CIVILIZATION_MANY_BUILDER
 INSERT INTO BaseGameText (Tag,Text) VALUES ('LOC_TRAIT_CIVILIZATION_MANY_BUILDER_CHARGE_DESCRIPTION','Gives builder a super many charge.');
 INSERT INTO BaseGameText (Tag,Text) VALUES ('LOC_TRAIT_CIVILIZATION_ONEFORALL_MILITARY_MELEE_PROD_NAME','Gives production boost in creating melee units.');
 INSERT INTO BaseGameText (Tag,Text) VALUES ('LOC_TRAIT_CIVILIZATION_ONEFORALL_MILITARY_MELEE_PROD_DESCRIPTION','Gives Huge production boost in creating melee units for a certain civilization.');
+-- Suzerain BONUS Text
+INSERT INTO BaseGameText (Tag,Text) VALUES ('LOC_TRAIT_ALL_SUZERAIN_BONUSES_NAME','King of Kings');

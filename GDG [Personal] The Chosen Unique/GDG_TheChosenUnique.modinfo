@@ -26,6 +26,8 @@
 		<File>GDG_TheChosenUnique.sql</File>
 		<File>GDG_TheChosenUniqueTraits.sql</File>
 		<File>GDG_TheChosenUniqueTraitsText.sql</File>
+		<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
+		
 	</Files>
 	
 	<Components>
@@ -34,6 +36,8 @@
 				<File>GDG_TheChosenUnique.sql</File>
 				<File>GDG_TheChosenUniqueTraits.sql</File>
 				<File>GDG_TheChosenUniqueTraitsText.sql</File>
+				<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
+				
 			</Items>
 		</UpdateDatabase>
 	</Components>
