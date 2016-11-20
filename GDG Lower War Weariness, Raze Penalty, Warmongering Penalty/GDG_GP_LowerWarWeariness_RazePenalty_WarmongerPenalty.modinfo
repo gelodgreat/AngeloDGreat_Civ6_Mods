@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id ="d29f0d8a-3b7c-4f80-8792-7aa70c1a680c" version="1.1">
+	<Properties>
+		<Name>GDG's Adjustable Warmongering, Raze Penalty, War Weariness</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Adjusts the value of Warmongering, Raze Penalty, War Weariness</Teaser>
+		<Description>Adjustable values of Warmongering,Raze Penalty, War Weariness</Description>
+		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>thecrazyscot</SpecialThanks>
+	</Properties>
+	
+	<References>
+		<Mod id="70c9b163-18cb-46bf-a326-e8369666d722" minversion="0" maxversion="999" title="AI+" />
+    </References>
+	
+	<Files>
+		<File>GDG_Warmongering_LowerWarWeariness_Raze.sql</File>
+	</Files>
+	
+	<Settings>
+		<Custom id="LowerWarWeariness">
+			<Items>
+				<Component>LowerWarWearinessComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Components>
+		<UpdateDatabase id="LowerWarWearinessComponent">
+			<Properties>
+				<Name>LOC_WARWEARINESS_COMPONENT_NAME</Name>
+			</Properties>
+			<Items>
+				<File>GDG_Warmongering_LowerWarWeariness_Raze.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>

@@ -116,13 +116,13 @@
 	
 	<!-- BUILDINGS -->
 	<Buildings>
+		 <Update>
+            <Where BuildingType="BUILDING_SHIPYARD"/>
+            <Set PrereqTech="TECH_SHIPBUILDING"/>
+         </Update>
+	
 		<Update>
             <Where BuildingType="BUILDING_SEAPORT"/>
-            <Set PrereqTech="TECH_SQUARE_RIGGING"/>
-         </Update>
-		 
-		 <Update>
-            <Where BuildingType="BUILDING_MILITARY_ACADEMY"/>
             <Set PrereqTech="TECH_MILITARY_TACTICS"/>
          </Update>
 		 
@@ -130,6 +130,13 @@
             <Where BuildingType="BUILDING_ARMORY"/>
             <Set PrereqTech="TECH_CONSTRUCTION"/>
          </Update>
+		 
+		 <Update>
+            <Where BuildingType="BUILDING_MILITARY_ACADEMY"/>
+            <Set PrereqTech="TECH_MILITARY_TACTICS"/>
+         </Update>
+		 
+		 
 	</Buildings>
 	
 </GameInfo>

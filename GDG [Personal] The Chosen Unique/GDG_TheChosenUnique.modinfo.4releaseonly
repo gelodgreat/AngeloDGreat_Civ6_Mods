@@ -31,8 +31,6 @@
 		<File>GDG_TheChosenUniqueTraitsText.sql</File>
 		<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
 		<File>GDG_TheChosenColors.sql</File>
-		<File>GDG_MYPERSONALSETTINGS.sql</File>
-		
 	</Files>
 	
 	<Components>
@@ -43,7 +41,7 @@
 				<File>GDG_TheChosenUniqueTraitsText.sql</File>
 				<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
 				<File>GDG_TheChosenColors.sql</File>
-				<File>GDG_MYPERSONALSETTINGS.sql</File>
+				
 			</Items>
 		</UpdateDatabase>
 	</Components>
