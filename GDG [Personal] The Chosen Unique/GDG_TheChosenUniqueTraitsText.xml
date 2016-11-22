@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by thecrazyscotsman on 10/31/2016 -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT_NAME">
+			<Text>Extra Melee Units</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT_DESCRIPTION">
+			<Text>Provides another set of melee units.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_NAME">
+			<Text>Extra Heavy Calvalry Units</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_DESCRIPTION">
+			<Text>Provides another set of heavy calvalry units.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_NAME">
+			<Text>Faster Border Growth</Text>
+		</Row><Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_DESCRIPTION">
+			<Text>Faster Border growth changeable.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MANY_BUILDER_CHARGE_NAME">
+			<Text>Many Builder Charge</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MANY_BUILDER_CHARGE_DESCRIPTION">
+			<Text>Gives builder a super many charge.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ONEFORALL_MILITARY_MELEE_PROD_NAME">
+			<Text>Gives production boost in creating melee/heavy calvalry units.</Text>
+		</Row>
+			<Row Tag="LOC_TRAIT_CIVILIZATION_ONEFORALL_MILITARY_MELEE_PROD_DESCRIPTION">
+			<Text>Gives Huge production boost in creating melee/heavy calvalry units for a certain civilization.</Text>
+		</Row>
+			<Row Tag="LOC_TRAIT_ALL_SUZERAIN_BONUSES_NAME">
+			<Text>King of Kings</Text>
+		</Row>
+	</BaseGameText>
+</GameData>
