@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e24f3fdf-4a87-4b41-90c4-f1fc52436c21" version="1.0">
+
+	<Properties>
+	<Name>GDG's Builder Every Wonder Boost for China</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Wonder Boost for every Wonders.</Teaser>
+		<Description>Allows China to Wonder Boost every wonder in every Eras.</Description>
+		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>NycholusV</SpecialThanks>
+	</Properties>
+
+	<Settings>
+		<Custom id="GDG_WonderBuilderBoost">
+			<Items>
+				<Component>GDG_WonderBuilderBoostComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+
+	<Files>
+		<File>GDG_Builder_Wonder_Boost.sql</File>
+	</Files>
+	
+	<Components>
+		<UpdateDatabase id="GDG_WonderBuilderBoostComponent">
+			<Items>
+				<File>GDG_Builder_Wonder_Boost.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+
+</Mod>
