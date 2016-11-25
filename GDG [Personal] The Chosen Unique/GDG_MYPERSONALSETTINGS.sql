@@ -4,5 +4,8 @@ INSERT INTO UnitReplaces (CivUniqueUnitType,ReplacesUnitType) VALUES ('UNIT_JAPA
 UPDATE ModifierArguments SET Value='CIVIC_CIVIL_SERVICE' WHERE ModifierId='TRAIT_NAVAL_CORPS_EARLY' AND Name='CivicType';
 UPDATE ModifierArguments SET Value='CIVIC_CIVIL_SERVICE' WHERE ModifierId='TRAIT_NAVAL_ARMIES_EARLY' AND Name='CivicType';
 
--- UPDATE UnitCommands SET MaxEra=8 WHERE CommandType='UNITCOMMAND_WONDER_PRODUCTION';
+UPDATE UnitCommands SET MaxEra=8 WHERE CommandType='UNITCOMMAND_WONDER_PRODUCTION';
+
+
+
 
