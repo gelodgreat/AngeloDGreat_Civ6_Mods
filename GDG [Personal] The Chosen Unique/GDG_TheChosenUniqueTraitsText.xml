@@ -2,18 +2,18 @@
 <!-- Created by thecrazyscotsman on 10/31/2016 -->
 <GameData>
 	<BaseGameText>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT_NAME">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_UNITS_NAME">
 			<Text>Extra Melee Units</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_MELEEE_UNIT_DESCRIPTION">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_UNITS_DESCRIPTION">
 			<Text>Provides another set of melee units.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_NAME">
-			<Text>Extra Heavy Calvalry Units</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_DESCRIPTION">
-			<Text>Provides another set of heavy calvalry units.</Text>
-		</Row>
+		<!-- <Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_NAME"> -->
+			<!-- <Text>Extra Heavy Calvalry Units</Text> -->
+		<!-- </Row> -->
+		<!-- <Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_HEAVY_CAVALRY_DESCRIPTION"> -->
+			<!-- <Text>Provides another set of heavy calvalry units.</Text> -->
+		<!-- </Row> -->
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_NAME">
 			<Text>Faster Border Growth</Text>
 		</Row><Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_DESCRIPTION">

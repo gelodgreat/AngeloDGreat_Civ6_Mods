@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.3.1.1">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.4.5">
 
 	<Properties>
 	<Name>GDG's The Chosen Unique</Name>
@@ -31,9 +31,20 @@
 		<File>GDG_TheChosenUniqueTraitsText.xml</File>
 		<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
 		<File>GDG_TheChosenColors.sql</File>
+		<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_AirFighter_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_Anti-Cavalry_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_HeavyCavalry_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_LightCavalry_Production.sql</File>
 		<File>GDG_TheChosenUniqueTraits_MeleeUnit_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_NavalMelee_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_NavalRanged_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_RangedUnit_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
+		<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
+		<File>GDG_Traits.sql</File>
 		<File>GDG_MYPERSONALSETTINGS.sql</File>
-		
 	</Files>
 	
 	<Components>
@@ -44,7 +55,19 @@
 				<File>GDG_TheChosenUniqueTraitsText.xml</File>
 				<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
 				<File>GDG_TheChosenColors.sql</File>
+				<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_AirFighter_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_Anti-Cavalry_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_HeavyCavalry_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_LightCavalry_Production.sql</File>
 				<File>GDG_TheChosenUniqueTraits_MeleeUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_NavalMelee_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_NavalRanged_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_RangedUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
+				<File>GDG_Traits.sql</File>
 				<File>GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>
 		</UpdateDatabase>
