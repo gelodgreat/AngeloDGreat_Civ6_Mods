@@ -43,6 +43,7 @@
 		<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
 		<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
 		<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
+		<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
 		<File>GDG_Traits.sql</File>
 		<File>GDG_MYPERSONALSETTINGS.sql</File>
 	</Files>
@@ -67,6 +68,7 @@
 				<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
 				<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
 				<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
+				<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
 				<File>GDG_Traits.sql</File>
 				<File>GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>
