@@ -17,7 +17,10 @@
 -- Added Almost all war units production
 --1.4.5
 -- Added Extra Units to almost every war units , settler, builder
-
+--1.4.8
+--Added Upgrade Discount
+--1.5.0 
+--Added Building Production
 
 
 -- ADDITIONAL FOR UNITS
