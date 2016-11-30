@@ -20,7 +20,8 @@ INSERT INTO CivilizationTraits (CivilizationType,TraitType) VALUES ('CIVILIZATIO
 INSERT INTO CivilizationTraits (CivilizationType,TraitType) VALUES ('CIVILIZATION_FRANCE','TRAIT_GDG_CIVILIZATION_UNIT_UPGRADE_DISCOUNT');
 --City Growth Rate
 INSERT INTO CivilizationTraits (CivilizationType,TraitType) VALUES ('CIVILIZATION_FRANCE','TRAIT_GDG_CIVILIZATION_CITY_GROWTH');
-
+--City Tiles
+INSERT INTO CivilizationTraits (CivilizationType,TraitType) VALUES ('CIVILIZATION_FRANCE','TRAIT_GDG_CIVILIZATION_CITY_TILES');
 
 -- UNIT PRODUCTION
 -- LAND
