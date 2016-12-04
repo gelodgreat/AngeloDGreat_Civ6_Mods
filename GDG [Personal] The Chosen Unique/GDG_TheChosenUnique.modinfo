@@ -46,6 +46,7 @@
 		<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
 		<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
 		<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
+		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 		<File>GDG_Traits.sql</File>
 		<File>GDG_MYPERSONALSETTINGS.sql</File>
 	</Files>
@@ -73,6 +74,7 @@
 				<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
 				<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
 				<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
+				<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 				<File>GDG_Traits.sql</File>
 				<File>GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>
