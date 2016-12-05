@@ -26,6 +26,14 @@
 --1.6.0
 --Added Extra City Tiles 
 -- ADDITIONAL FOR UNITS
+--1.6.5
+--Added City PRODUCTION
+--1.6.8
+--Added Trade yields Domestic
+--1.6.9
+--Added Purchase Using Faith
+--1.7.0
+--Added Additional units after settling a city non home continent
 INSERT INTO TypeTags (Type,Tag) VALUES ('UNIT_SUMERIAN_WAR_CART','CLASS_HEAVY_CAVALRY');
 
 --DONT TOUCH THIS
