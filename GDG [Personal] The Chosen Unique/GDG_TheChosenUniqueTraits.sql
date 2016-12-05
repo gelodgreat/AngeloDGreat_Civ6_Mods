@@ -70,7 +70,7 @@ INSERT INTO Modifiers (ModifierId,ModifierType) VALUES ('TRAIT_CIVILIZATION_GDG_
 --If you want to set the value higher or lower alter only this part
 -- MODIFIER ARGUMENTS
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_FASTER_BORDER_GROWTH','Amount',100);	
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_MANY_BUILDER_CHARGE','Amount',95);	
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_MANY_BUILDER_CHARGE','Amount',20);	
 -- Settler Production
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_FASTEST_SETTLER_PROD','UnitType','UNIT_SETTLER');	
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_FASTEST_SETTLER_PROD','Amount',100);	
@@ -86,7 +86,7 @@ INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATIO
 --City Growth Rate
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_GROWTH','Amount',100);
 --City Tiles
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',10);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',12);
 -- FOR FUTURE USE
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('','','');	
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value,Extra) VALUES ('','','',-1);	
