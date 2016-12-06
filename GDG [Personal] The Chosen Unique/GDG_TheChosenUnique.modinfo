@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.7.0">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.7.5">
 
 	<Properties>
 	<Name>GDG's The Chosen Unique</Name>
@@ -47,6 +47,7 @@
 		<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
 		<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
 		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
+		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 		<File>GDG_Traits.sql</File>
 		<File>GDG_MYPERSONALSETTINGS.sql</File>
 	</Files>
@@ -75,6 +76,7 @@
 				<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
 				<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
 				<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
+				<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 				<File>GDG_Traits.sql</File>
 				<File>GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>

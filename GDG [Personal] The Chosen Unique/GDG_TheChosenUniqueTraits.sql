@@ -4,10 +4,10 @@
 
 -- Process:
 -- 1. Types
--- 2. MODIFIERS
--- 3. Modifier ARGUMENTS
+-- 2. Modifiers
+-- 3. Modifier Arguments
 -- 4. Traits
--- 5. Trait MODIFIERS
+-- 5. Trait Modifier
 -- 6. CivilizationTraits or LeaderTraits
 
 -- NOTE:
@@ -34,6 +34,11 @@
 --Added Purchase Using Faith
 --1.7.0
 --Added Additional units after settling a city non home continent
+--1.7.1
+--Removed Additional units after settling a city non home continent
+--1.7.5
+--Added Minor Open Borders , Influence Points , Religion Spread Distance, Religion Spread Strength
+
 INSERT INTO TypeTags (Type,Tag) VALUES ('UNIT_SUMERIAN_WAR_CART','CLASS_HEAVY_CAVALRY');
 
 --DONT TOUCH THIS
@@ -94,7 +99,7 @@ INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATIO
 --City Growth Rate
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_GROWTH','Amount',100);
 --City Tiles
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',12);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',17);
 -- FOR FUTURE USE
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('','','');	
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value,Extra) VALUES ('','','',-1);	
