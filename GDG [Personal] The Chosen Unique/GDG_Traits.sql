@@ -1,35 +1,38 @@
---If you want to delete a triat just comment it like this
--- Suzerain
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_ALL_SUZERAIN_BONUSES');
+-- CIVILIZATION TRAITS MADE BY GDG
+INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES 
+																					  -- Suzerain
+																					  ('LEADER_PHILIP_II','TRAIT_ALL_SUZERAIN_BONUSES'),						
+																					  --Extra Units
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_EXTRA_UNITS'),
+																					  --Border Growth
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_FASTER_BORDER_GROWTH'),
+																					  --Builder Charge
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_MANY_BUILDER_CHARGE'),
+																					  -- Settler Production
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_FASTEST_SETTLER_PROD'),
+																					  --NEW EXTRA WILD CARD
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_EXTRA_WILD_CARD'),
+																					  --NEW WONDER PRODUCTION	
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_WONDER_PRODUCTION'),
+																					  --NEW District PRODUCTION	
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
+																					  --NEW Building Production
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
+																					  -- Discount Unit Upgrade
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_UNIT_UPGRADE_DISCOUNT'),
+																					  --City Growth Rate
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_CITY_GROWTH'),
+																					  --City Tiles
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_CITY_TILES'),
+																					  --City Production
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_PRODUCTION'),
+																					  --TRADE
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_TRADE_YIELDS'),
+																					  --PURCHASE USING FAITH
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_PURCHASE_UNITS_FAITH'),
+																					  --Minor Open Borders , Influence Points , Religion Spread Distance, Religion Spread Strength
+																					  ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_MO_IP_RSD_RSS');
 
--- CIVILIZATION TRAITS
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_EXTRA_UNITS');	
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_FASTER_BORDER_GROWTH');	
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_MANY_BUILDER_CHARGE');	
--- Settler Production
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_FASTEST_SETTLER_PROD');		
---NEW EXTRA WILD CARD
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_EXTRA_WILD_CARD');		
---NEW WONDER PRODUCTION	
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_WONDER_PRODUCTION');	
---NEW District PRODUCTION	
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION');
---NEW Building Production
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION');
--- Discount Unit Upgrade
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_UNIT_UPGRADE_DISCOUNT');
---City Growth Rate
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_CITY_GROWTH');
---City Tiles
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_CITY_TILES');
---City Production
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_PRODUCTION');
---TRADE
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_TRADE_YIELDS');
---PURCHASE USING FAITH
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_PURCHASE_UNITS_FAITH');
---Minor Open Borders , Influence Points , Religion Spread Distance, Religion Spread Strength
-INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES ('LEADER_PHILIP_II','TRAIT_GDG_CIVILIZATION_MO_IP_RSD_RSS');
 
 -- UNIT PRODUCTION
 -- LAND
