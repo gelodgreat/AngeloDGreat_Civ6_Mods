@@ -95,11 +95,11 @@ INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATIO
 --NEW District PRODUCTION
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_DISTRICT_PRODUCTION','Amount',100);	
 -- Discount Unit Upgrade
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_UNIT_UPGRADE_DISCOUNT','Amount',90);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_UNIT_UPGRADE_DISCOUNT','Amount',100);
 --City Growth Rate
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_GROWTH','Amount',10);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_GROWTH','Amount',2);
 --City Tiles
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',7);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',1);
 -- FOR FUTURE USE
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('','','');	
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value,Extra) VALUES ('','','',-1);	

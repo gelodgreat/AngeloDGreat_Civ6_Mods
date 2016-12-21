@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.7.5">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="1.8.0">
 
 	<Properties>
 	<Name>GDG's The Chosen Unique</Name>
@@ -26,7 +26,7 @@
 	<!-- YOU CAN COMMENT ANY FILE HERE SO YOU CAN CHOOSE WHAT YOU ONLY NEED -->
 	
 	<Files>
-		<File>GDG_TheChosenUnique.sql</File>
+		<File>GDG_TheChosenUnique_PLAYER_TRAITS.sql</File>
 		<File>GDG_TheChosenUniqueTraits.sql</File>
 		<File>GDG_TheChosenUniqueTraitsText.xml</File>
 		<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
@@ -48,6 +48,8 @@
 		<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
 		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
+		<File>GDG_TheChosenUniqueTraits_AI_BOOST_ExtraUnits.sql</File>
+		<File>GDG_Traits_AI_MILITARY_BOOST.sql</File>
 		<File>GDG_Traits.sql</File>
 		<File>GDG_MYPERSONALSETTINGS.sql</File>
 	</Files>
@@ -55,7 +57,7 @@
 	<Components>
 		<UpdateDatabase id="GDG_TheChosenUniqueComponent">
 			<Items>
-				<File>GDG_TheChosenUnique.sql</File>
+				<File>GDG_TheChosenUnique_PLAYER_TRAITS.sql</File>
 				<File>GDG_TheChosenUniqueTraits.sql</File>
 				<File>GDG_TheChosenUniqueTraitsText.xml</File>
 				<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
@@ -77,6 +79,8 @@
 				<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
 				<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 				<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
+				<File>GDG_TheChosenUniqueTraits_AI_BOOST_ExtraUnits.sql</File>
+				<File>GDG_Traits_AI_MILITARY_BOOST.sql</File>
 				<File>GDG_Traits.sql</File>
 				<File>GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>
