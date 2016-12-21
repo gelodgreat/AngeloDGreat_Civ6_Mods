@@ -15,15 +15,9 @@ INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES
 																					  --NEW WONDER PRODUCTION	
 																					  ('LEADER_HOJO','TRAIT_GDG_CIVILIZATION_WONDER_PRODUCTION'),
 																					  --NEW District PRODUCTION	
-<<<<<<< HEAD
 																					  -- ('LEADER_HOJO','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
 																					  --NEW Building Production
 																					  -- ('LEADER_HOJO','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
-=======
-																					  ('LEADER_HOJO','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
-																					  --NEW Building Production
-																					  ('LEADER_HOJO','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
->>>>>>> origin/master
 																					  -- Discount Unit Upgrade
 																					  ('LEADER_HOJO','TRAIT_GDG_CIVILIZATION_UNIT_UPGRADE_DISCOUNT'),
 																					  --City Growth Rate
