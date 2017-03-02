@@ -24,10 +24,10 @@
             <Set Value="5"/>
          </Update>
 		 <!-- Population per amenity default 2 -->
-		 <Update>
-            <Where Name="CITY_POP_PER_AMENITY"/>
-            <Set Value="4"/>
-         </Update>
+		 <!-- <Update> -->
+            <!-- <Where Name="CITY_POP_PER_AMENITY"/> -->
+            <!-- <Set Value="4"/> -->
+         <!-- </Update> -->
 		 
 	<!-- DIPLOMACY -->
 	
@@ -63,7 +63,7 @@
 	<!-- DEFAULT = 10   -->
 		 <Update>
             <Where Name="DIPLOMACY_PEACE_MIN_TURNS"/>
-            <Set Value="7"/>
+            <Set Value="5"/>
          </Update>
 		 
 	<!-- DEFAULT = 10   -->
@@ -87,56 +87,56 @@
 	</UnitCommands>
 	
 	<!-- UNITS -->
-	<Units>
-		 <Update>
-            <Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
-            <Set PrereqTech="TECH_GUNPOWDER"/>
-         </Update>
+	<!-- <Units> -->
+		 <!-- <Update> -->
+            <!-- <Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/> -->
+            <!-- <Set PrereqTech="TECH_GUNPOWDER"/> -->
+         <!-- </Update> -->
 		 
-		 <Update>
-            <Where UnitType="UNIT_ENGLISH_REDCOAT"/>
-            <Set PrereqTech="TECH_GUNPOWDER"/>
-         </Update>
+		 <!-- <Update> -->
+            <!-- <Where UnitType="UNIT_ENGLISH_REDCOAT"/> -->
+            <!-- <Set PrereqTech="TECH_GUNPOWDER"/> -->
+         <!-- </Update> -->
 		 
-		 <Update>
-            <Where UnitType="UNIT_RUSSIAN_COSSACK"/>
-            <Set PrereqTech="TECH_SIEGE_TACTICS"/>
-         </Update>
+		 <!-- <Update> -->
+            <!-- <Where UnitType="UNIT_RUSSIAN_COSSACK"/> -->
+            <!-- <Set PrereqTech="TECH_SIEGE_TACTICS"/> -->
+         <!-- </Update> -->
 		 
-		  <Update>
-            <Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
-            <Set PrereqTech="TECH_MILITARY_SCIENCE"/>
-         </Update>
+		  <!-- <Update> -->
+            <!-- <Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/> -->
+            <!-- <Set PrereqTech="TECH_MILITARY_SCIENCE"/> -->
+         <!-- </Update> -->
 		 
-		  <Update>
-            <Where UnitType="UNIT_JAPANESE_SAMURAI"/>
-            <Set PrereqTech="TECH_IRON_WORKING"/>
-         </Update>
-	</Units>
+		  <!-- <Update> -->
+            <!-- <Where UnitType="UNIT_JAPANESE_SAMURAI"/> -->
+            <!-- <Set PrereqTech="TECH_IRON_WORKING"/> -->
+         <!-- </Update> -->
+	<!-- </Units> -->
 	
 	<!-- BUILDINGS -->
-	<Buildings>
-		 <Update>
-            <Where BuildingType="BUILDING_SHIPYARD"/>
-            <Set PrereqTech="TECH_SHIPBUILDING"/>
-         </Update>
+	<!-- <Buildings> -->
+		 <!-- <Update> -->
+            <!-- <Where BuildingType="BUILDING_SHIPYARD"/> -->
+            <!-- <Set PrereqTech="TECH_SHIPBUILDING"/> -->
+         <!-- </Update> -->
 	
-		<Update>
-            <Where BuildingType="BUILDING_SEAPORT"/>
-            <Set PrereqTech="TECH_MILITARY_TACTICS"/>
-         </Update>
+		<!-- <Update> -->
+            <!-- <Where BuildingType="BUILDING_SEAPORT"/> -->
+            <!-- <Set PrereqTech="TECH_MILITARY_TACTICS"/> -->
+         <!-- </Update> -->
 		 
-		 <Update>
-            <Where BuildingType="BUILDING_ARMORY"/>
-            <Set PrereqTech="TECH_CONSTRUCTION"/>
-         </Update>
+		 <!-- <Update> -->
+            <!-- <Where BuildingType="BUILDING_ARMORY"/> -->
+            <!-- <Set PrereqTech="TECH_CONSTRUCTION"/> -->
+         <!-- </Update> -->
 		 
-		 <Update>
-            <Where BuildingType="BUILDING_MILITARY_ACADEMY"/>
-            <Set PrereqTech="TECH_MILITARY_TACTICS"/>
-         </Update>
+		 <!-- <Update> -->
+            <!-- <Where BuildingType="BUILDING_MILITARY_ACADEMY"/> -->
+            <!-- <Set PrereqTech="TECH_MILITARY_TACTICS"/> -->
+         <!-- </Update> -->
 		 
 		 
-	</Buildings>
+	<!-- </Buildings> -->
 	
 </GameInfo>
