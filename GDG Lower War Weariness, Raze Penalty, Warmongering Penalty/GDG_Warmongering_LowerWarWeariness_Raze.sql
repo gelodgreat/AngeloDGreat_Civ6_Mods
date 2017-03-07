@@ -5,15 +5,15 @@ UPDATE Eras SET WarmongerPoints=0 WHERE EraType='ERA_ANCIENT';
 -- DEFAULT = 4
 UPDATE Eras SET WarmongerPoints=2 WHERE EraType='ERA_CLASSICAL'; 
 -- DEFAULT = 8
-UPDATE Eras SET WarmongerPoints=2 WHERE EraType='ERA_MEDIEVAL'; 
+UPDATE Eras SET WarmongerPoints=4 WHERE EraType='ERA_MEDIEVAL'; 
 -- DEFAULT = 12
-UPDATE Eras SET WarmongerPoints=2 WHERE EraType='ERA_RENAISSANCE'; 
+UPDATE Eras SET WarmongerPoints=4 WHERE EraType='ERA_RENAISSANCE'; 
 -- DEFAULT = 18
 UPDATE Eras SET WarmongerPoints=2 WHERE EraType='ERA_INDUSTRIAL'; 
 -- DEFAULT = 24
-UPDATE Eras SET WarmongerPoints=4 WHERE EraType='ERA_MODERN'; 
+UPDATE Eras SET WarmongerPoints=2 WHERE EraType='ERA_MODERN'; 
 -- DEFAULT = 24
-UPDATE Eras SET WarmongerPoints=4 WHERE EraType='ERA_ATOMIC'; 
+UPDATE Eras SET WarmongerPoints=2 WHERE EraType='ERA_ATOMIC'; 
 -- DEFAULT = 24
 UPDATE Eras SET WarmongerPoints=4 WHERE EraType='ERA_INFORMATION'; 
 	
