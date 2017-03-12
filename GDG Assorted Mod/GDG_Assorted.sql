@@ -1,5 +1,5 @@
 --GlobalParameters
-UPDATE GlobalParameters SET Value=4 WHERE Name="CITY_MIN_RANGE"; -- Range of building a new city default =3
+-- UPDATE GlobalParameters SET Value=4 WHERE Name="CITY_MIN_RANGE"; -- Range of building a new city default =3
 UPDATE GlobalParameters SET Value=1 WHERE Name="CITY_FOOD_CONSUMPTION_PER_POPULATION"; -- Reduced food consumption default = 2 
 UPDATE GlobalParameters SET Value=3 WHERE Name="CITY_AMENITIES_FOR_FREE"; -- City Amenities default = 1
 UPDATE GlobalParameters SET Value=5 WHERE Name="CITY_MAX_BUY_PLOT_RANGE"; -- Buying City plot range default = 3

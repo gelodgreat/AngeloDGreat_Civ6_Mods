@@ -19,11 +19,11 @@ INSERT INTO EraIncreases
 	VALUES	("ERA_ANCIENT",0),
 			("ERA_CLASSICAL", 25),
 			("ERA_MEDIEVAL", 150),
-			("ERA_RENAISSANCE", 200),
-			("ERA_INDUSTRIAL", 300),
-			("ERA_MODERN", 200),
-			("ERA_ATOMIC", 300),
-			("ERA_INFORMATION", 400);
+			("ERA_RENAISSANCE", 300),
+			("ERA_INDUSTRIAL", 500),
+			("ERA_MODERN", 500),
+			("ERA_ATOMIC", 400),
+			("ERA_INFORMATION", 600);
 
 
 -- Technology cost
