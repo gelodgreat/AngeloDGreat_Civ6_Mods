@@ -33,3 +33,20 @@ Update UnitCommands SET PrereqCivic="CIVIC_CIVIL_SERVICE" WHERE  CommandType="UN
 -- Update Buildings SET PrereqTech="TECH_MILITARY_TACTICS" WHERE BuildingType="BUILDING_MILITARY_ACADEMY";
 
 UPDATE DiplomaticActions SET InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE",TargetPrereqCivic="CIVIC_CIVIL_SERVICE" WHERE DiplomaticActionType="DIPLOACTION_DEFENSIVE_PACT";
+
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_CULTURE_BOMBED' AND Name='InitialValue';
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_CULTURE_BOMBED' AND Name='ReductionTurns';
+UPDATE ModifierArguments SET Value=-1 WHERE  ModifierId='STANDARD_DIPLOMATIC_CULTURE_BOMBED' AND Name='ReductionValue';
+
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_CONVERTED_CITY' AND Name='InitialValue';
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_CONVERTED_CITY' AND Name='ReductionTurns';
+UPDATE ModifierArguments SET Value=-1 WHERE  ModifierId='STANDARD_DIPLOMATIC_CONVERTED_CITY' AND Name='ReductionValue';
+
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_NEAR_BORDER_WARNING' AND Name='InitialValue';
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_NEAR_BORDER_WARNING' AND Name='ReductionTurns';
+UPDATE ModifierArguments SET Value=-1 WHERE  ModifierId='STANDARD_DIPLOMATIC_NEAR_BORDER_WARNING' AND Name='ReductionValue';
+
+
+
+
+

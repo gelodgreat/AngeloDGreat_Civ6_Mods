@@ -80,8 +80,9 @@ UPDATE GlobalParameters SET Value=500 WHERE Name='WAR_WEARINESS_DECAY_TURN_AT_PE
 UPDATE ModifierArguments SET Value=-5 WHERE ModifierId='STANDARD_DIPLOMATIC_RAZED_MY_CITY' AND Name='InitialValue';
 -- Default Value = 20
 UPDATE ModifierArguments SET Value=5 WHERE ModifierId='STANDARD_DIPLOMATIC_RAZED_MY_CITY' AND Name='ReductionTurns';
+UPDATE ModifierArguments SET Value=-1 WHERE ModifierId='STANDARD_DIPLOMATIC_RAZED_MY_CITY' AND Name='ReductionValue';
 
 UPDATE ModifierArguments SET Value=1 WHERE ModifierId='STANDARD_DIPLOMATIC_WARMONGER' AND Name='ReductionTurns';
 -- Penalty for occupying AI's City default value = -18
 UPDATE ModifierArguments SET Value=0 WHERE ModifierId='STANDARD_DIPLOMATIC_OCCUPIED_CITY' AND Name='InitialValue';
-
+UPDATE ModifierArguments SET Value=0 WHERE  ModifierId='STANDARD_DIPLOMATIC_OCCUPIED_FRIENDLY_CITY' AND Name='InitialValue';
