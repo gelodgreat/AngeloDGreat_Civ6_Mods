@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.0.0.0">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.0.0.5">
 
 	<Properties>
 	<Name>GDG's The Chosen Unique</Name>
@@ -13,6 +13,8 @@
 	<References>
 		<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" minversion="0" maxversion="999" title="All Civs have Roads Lead to Capital" />
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
+		<Mod id="4ad76b61-a4e9-4cd0-9793-1a8baed3cb5c" minversion="0" maxversion="999" title="Even Moar Units! Hooves And Holy War" />
+		<Mod id="9f70f3fc-6afa-4c49-b33b-c317d8186ca3" minversion="0" maxversion="999" title="Moar Units: Mortar Mod" />
 	</References>
 	
 	<Settings>
@@ -27,7 +29,7 @@
 	<!-- YOU CAN COMMENT ANY FILE HERE SO YOU CAN CHOOSE WHAT YOU ONLY NEED -->
 	
 	<Files>
-		<File>GDG_Chosen_Civ_Component.sql</File>
+		<File>Modifieable_GDG_Chosen_Civ_Component.sql</File>
 		<File>GDG_TheChosenUniqueTraits.sql</File>
 		<File>GDG_TheChosenUniqueTraitsText.xml</File>
 		<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
@@ -51,39 +53,39 @@
 		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 		<File>GDG_Culture_Bomb_Improvements.sql</File>
-		<File>GDG__Custom_Traits.sql</File>
-		<File>GDG_MYPERSONALSETTINGS.sql</File>
+		<File>Modifiable_GDG_Custom_Traits.sql</File>
+		<File>Modifiable_GDG_MYPERSONALSETTINGS.sql</File>
 	</Files>
 	
 	<Components>
 		<UpdateDatabase id="GDG_TheChosenUniqueComponent">
 			<Items>
-				<File>GDG_Chosen_Civ_Component.sql</File>
-				<File>GDG_TheChosenUniqueTraits.sql</File>
-				<File>GDG_TheChosenUniqueTraitsText.xml</File>
-				<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
-				<File>GDG_TheChosenColors.sql</File>
-				<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_AirFighter_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_Anti-Cavalry_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_HeavyCavalry_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_LightCavalry_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_MeleeUnit_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_NavalMelee_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_NavalRanged_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_NavalRaider_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_RangedUnit_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
-				<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
-				<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
-				<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
-				<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
-				<File>GDG_Culture_Bomb_Improvements.sql</File>
-				<File>GDG__Custom_Traits.sql</File>
-				<File>GDG_MYPERSONALSETTINGS.sql</File>
+					<File>Modifieable_GDG_Chosen_Civ_Component.sql</File>
+					<File>GDG_TheChosenUniqueTraits.sql</File>
+					<File>GDG_TheChosenUniqueTraitsText.xml</File>
+					<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
+					<File>GDG_TheChosenColors.sql</File>
+					<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_AirFighter_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_Anti-Cavalry_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_HeavyCavalry_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_LightCavalry_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_MeleeUnit_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_NavalMelee_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_NavalRanged_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_NavalRaider_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_RangedUnit_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
+					<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
+					<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
+					<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
+					<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
+					<File>GDG_Culture_Bomb_Improvements.sql</File>
+					<File>Modifiable_GDG_Custom_Traits.sql</File>
+					<File>Modifiable_GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>

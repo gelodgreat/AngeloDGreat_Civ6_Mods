@@ -7,7 +7,7 @@ INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES
 																					  --Border Growth
 																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_FASTER_BORDER_GROWTH'),
 																					  --Builder Charge
-																					  -- ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_MANY_BUILDER_CHARGE'),
+																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_MANY_BUILDER_CHARGE'),
 																					  -- Settler Production
 																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_FASTEST_SETTLER_PROD'),
 																					  --NEW EXTRA WILD CARD
@@ -17,7 +17,7 @@ INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES
 																					  --NEW District PRODUCTION	
 																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
 																					  --NEW Building Production
-																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
+																					  -- ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
 																					  -- Discount Unit Upgrade
 																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_UNIT_UPGRADE_DISCOUNT'),
 																					  --City Growth Rate
