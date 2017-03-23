@@ -15,7 +15,7 @@ INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES
 																					  --NEW WONDER PRODUCTION	
 																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_WONDER_PRODUCTION'),
 																					  --NEW District PRODUCTION	
-																					  ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
+																					  -- ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
 																					  --NEW Building Production
 																					  -- ('LEADER_CATHERINE_DE_MEDICI','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
 																					  -- Discount Unit Upgrade

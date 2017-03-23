@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="acc1305a-b5ab-4a14-9a2b-b0bc03b5ca89" version="1.9.0">
+<Mod id="acc1305a-b5ab-4a14-9a2b-b0bc03b5ca89" version="2.0.5">
 
 	<Properties>
 	<Name>GDG's Assorted Mods</Name>
@@ -9,24 +9,28 @@
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
-	
+		
 	<Settings>
 		<Custom id="GDG_Assorted">
 			<Items>
-				<Component>GDG_Assortedomponent</Component>
+				<Component>GDG_AssortedComponent</Component>
 			</Items>
 		</Custom>
 	</Settings>
 	
 	<Files>
 		<File>GDG_Assorted.sql</File>
+		<File>GDG_FighterPlane_Range.sql</File>
+		<File>GDG_ValidTerrains.sql</File>
 		<File>SlowerEras.sql</File>
 	</Files>
 	
 	<Components>
-		<UpdateDatabase id="GDG_TheChosenUniqueomponent">
+		<UpdateDatabase id="GDG_AssortedComponent">
 			<Items>
 				<File>GDG_Assorted.sql</File>
+				<File>GDG_FighterPlane_Range.sql</File>
+				<File>GDG_ValidTerrains.sql</File>
 				<File>SlowerEras.sql</File>
 			</Items>
 		</UpdateDatabase>

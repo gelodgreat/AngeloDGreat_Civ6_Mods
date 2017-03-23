@@ -13,8 +13,7 @@
 	<References>
 		<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" minversion="0" maxversion="999" title="All Civs have Roads Lead to Capital" />
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
-		<Mod id="4ad76b61-a4e9-4cd0-9793-1a8baed3cb5c" minversion="0" maxversion="999" title="Even Moar Units! Hooves And Holy War" />
-		<Mod id="9f70f3fc-6afa-4c49-b33b-c317d8186ca3" minversion="0" maxversion="999" title="Moar Units: Mortar Mod" />
+		<Mod id="bbaf474e-e476-4ea8-8a98-b6fa6d12b515" minversion="0" maxversion="999" title="Real Era Stop" /> 
 	</References>
 	
 	<Settings>
@@ -53,8 +52,9 @@
 		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 		<File>GDG_Culture_Bomb_Improvements.sql</File>
-		<File>Modifiable_GDG_Custom_Traits.sql</File>
 		<File>Modifiable_GDG_MYPERSONALSETTINGS.sql</File>
+		<File>Modifiable_GDG_Custom_Traits.sql</File>
+		
 	</Files>
 	
 	<Components>
