@@ -3,7 +3,3 @@ DELETE FROM LeaderTraits WHERE LeaderType='LEADER_HOJO' AND TraitType='TRAIT_CIV
 INSERT INTO UnitReplaces (CivUniqueUnitType,ReplacesUnitType) VALUES ('UNIT_JAPANESE_SAMURAI','UNIT_SWORDSMAN'); 
 INSERT INTO UnitReplaces (CivUniqueUnitType,ReplacesUnitType) VALUES ('UNIT_POLISH_HUSSAR','UNIT_KNIGHT'); 
 
--- UPDATE UnitCommands SET MaxEra=8 WHERE CommandType='UNITCOMMAND_WONDER_PRODUCTION';
-
-
-
