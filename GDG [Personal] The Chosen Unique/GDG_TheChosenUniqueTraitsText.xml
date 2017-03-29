@@ -16,7 +16,8 @@
 		<!-- </Row> -->
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_NAME">
 			<Text>Faster Border Growth</Text>
-		</Row><Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_DESCRIPTION">
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FASTER_BORDER_GROWTH_DESCRIPTION">
 			<Text>Faster Border growth changeable.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MANY_BUILDER_CHARGE_NAME">

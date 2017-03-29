@@ -9,11 +9,12 @@
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
-	
 	<References>
 		<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" minversion="0" maxversion="999" title="All Civs have Roads Lead to Capital" />
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
 		<Mod id="bbaf474e-e476-4ea8-8a98-b6fa6d12b515" minversion="0" maxversion="999" title="Real Era Stop" /> 
+		
+		
 	</References>
 	
 	<Settings>
@@ -52,9 +53,7 @@
 		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 		<File>GDG_Culture_Bomb_Improvements.sql</File>
-		<File>Modifiable_GDG_MYPERSONALSETTINGS.sql</File>
 		<File>Modifiable_GDG_Custom_Traits.sql</File>
-		
 	</Files>
 	
 	<Components>
@@ -85,7 +84,6 @@
 					<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 					<File>GDG_Culture_Bomb_Improvements.sql</File>
 					<File>Modifiable_GDG_Custom_Traits.sql</File>
-					<File>Modifiable_GDG_MYPERSONALSETTINGS.sql</File>
 			</Items>
 		</UpdateDatabase>
 	</Components>
