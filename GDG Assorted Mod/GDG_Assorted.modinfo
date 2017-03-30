@@ -9,7 +9,11 @@
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
-		
+	
+		<Dependencies>
+		 <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+		</Dependencies>
+	
 	<Settings>
 		<Custom id="GDG_Assorted">
 			<Items>

@@ -9,13 +9,15 @@
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
-	<References>
-		<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" minversion="0" maxversion="999" title="All Civs have Roads Lead to Capital" />
+
+	<Dependencies>
+		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" minversion="0" maxversion="999" title="Even Moar Units! Australia" /> 	
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
-		<Mod id="bbaf474e-e476-4ea8-8a98-b6fa6d12b515" minversion="0" maxversion="999" title="Real Era Stop" /> 
-		
-		
-	</References>
+		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+	</Dependencies>
 	
 	<Settings>
 		<Custom id="GDG_TheChosenUnique">

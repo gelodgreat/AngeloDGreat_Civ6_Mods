@@ -11,9 +11,12 @@
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
 	
-	<!-- <References> -->
-		<!-- <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" minversion="0" maxversion="999" title="Aztecs"> -->
-	<!-- </References> -->
+	<Dependencies>
+		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+	</Dependencies>
 	
 	<Settings>
 		<Custom id="GDG_RoadsAfterSettling">
