@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.0.0.5">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.2">
 
 	<Properties>
 	<Name>GDG's The Chosen Unique</Name>
@@ -7,25 +7,8 @@
 		<Teaser>Gives Civilization a type of uniques.</Teaser>
 		<Description>Gives Civilization a type of uniques from other civs.</Description>
 		<Authors>GeloDGreat</Authors>
-		<SpecialThanks>All modders who share their mods.</SpecialThanks>
+		<SpecialThanks>chiphead for the fix of exclamation mark.</SpecialThanks>
 	</Properties>
-
-	<Dependencies>
-		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" minversion="0" maxversion="999" title="Even Moar Units! Australia" /> 	
-		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
-		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
-		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
-		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
-		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
-	</Dependencies>
-	
-	<Settings>
-		<Custom id="GDG_TheChosenUnique">
-			<Items>
-				<Component>GDG_TheChosenUniqueComponent</Component>
-			</Items>
-		</Custom>
-	</Settings>
 	
 	<!-- NOTE: -->
 	<!-- YOU CAN COMMENT ANY FILE HERE SO YOU CAN CHOOSE WHAT YOU ONLY NEED -->
@@ -56,14 +39,23 @@
 		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 		<File>GDG_Culture_Bomb_Improvements.sql</File>
 		<File>Modifiable_GDG_Custom_Traits.sql</File>
+		<File>GDG_BAU.dep</File>
 	</Files>
+	
+	<Dependencies>
+		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" minversion="0" maxversion="999" title="Even Moar Units! Australia" /> 	
+		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
+		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+	</Dependencies>
 	
 	<Components>
 		<UpdateDatabase id="GDG_TheChosenUniqueComponent">
 			<Items>
 					<File>Modifieable_GDG_Chosen_Civ_Component.sql</File>
 					<File>GDG_TheChosenUniqueTraits.sql</File>
-					<File>GDG_TheChosenUniqueTraitsText.xml</File>
 					<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
 					<File>GDG_TheChosenColors.sql</File>
 					<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
@@ -88,6 +80,11 @@
 					<File>Modifiable_GDG_Custom_Traits.sql</File>
 			</Items>
 		</UpdateDatabase>
+		<ModArt id="GDG_ChosenArt">
+			<Items>
+				<File>GDG_BAU.dep</File>
+			</Items>
+		</ModArt>
 	</Components>
 	
 	

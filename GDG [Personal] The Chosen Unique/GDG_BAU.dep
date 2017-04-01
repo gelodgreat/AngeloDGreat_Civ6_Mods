@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="GDG's The Chosen Unique"/>
+        <id text="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919"/>
+    </ID>
+    <SystemDependencies>
+        <Element>
+            <!-- The type of thing you are adding -->
+            <ConsumerName text="Landmarks"/>
+            <ArtDefDependencyPaths>
+                <!-- The name of the file you are adding,
+                     seems to have to be the same as a base
+                     file name -->
+                <Element text="Landmarks.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
