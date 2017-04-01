@@ -12,7 +12,7 @@ INSERT INTO Modifiers (ModifierId,ModifierType) VALUES ('TRAIT_CIVILIZATION_GDG_
 
 --Modifier Arguments
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_TRADE_YIELDS_GOLD','YieldType','YIELD_GOLD');
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_TRADE_YIELDS_GOLD','Amount',2);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_TRADE_YIELDS_GOLD','Amount',1);
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_TRADE_YIELDS_FOOD','YieldType','YIELD_FOOD');
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_TRADE_YIELDS_FOOD','Amount',0);
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_TRADE_YIELDS_SCIENCE','YieldType','YIELD_SCIENCE');
