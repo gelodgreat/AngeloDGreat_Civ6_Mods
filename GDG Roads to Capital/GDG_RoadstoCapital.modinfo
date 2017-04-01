@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" version="1.6.5">
+<Mod id="760058dd-cfe9-4a0c-a04a-6cb23217cb23" version="1.6.7">
 
 	<Properties>
 	<Name>GDG's Roads to Capital</Name>
@@ -9,12 +9,11 @@
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>All modders who share their mods.</SpecialThanks>
 	</Properties>
-  
-	  <InGameActions>
-		<UpdateText id="GDG_ROADSTOCAPITAL_TEXT">
-		  <File>Text/GDG_RoadstoCapital_Text.sql</File>
-		</UpdateText>
-	  </InGameActions>
+	
+  	<Files>
+		<File>GDG_RoadstoCapital.sql</File>
+		<File>Text/GDG_RoadstoCapital_Text.sql</File>
+	</Files>
 
 	<Dependencies>
 		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
@@ -29,10 +28,12 @@
 				<File>GDG_RoadstoCapital.sql</File>
 			</Items>
 		</UpdateDatabase>
+		
+			<LocalizedText id="GDG_ROADSTOCAPITAL_TEXT">
+			  <Items>
+				<File>Text/GDG_RoadstoCapital_Text.sql</File>
+			  </Items>
+			</LocalizedText>
 	</Components>
 	
-	<Files>
-		<File>GDG_RoadstoCapital.sql</File>
-		<File>Text/GDG_RoadstoCapital_Text.sql</File>
-	</Files>
 </Mod>
