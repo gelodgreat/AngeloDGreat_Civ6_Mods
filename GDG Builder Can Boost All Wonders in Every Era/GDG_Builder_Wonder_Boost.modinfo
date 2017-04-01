@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="e24f3fdf-4a87-4b41-90c4-f1fc52436c21" version="1.5.5">
+<Mod id="e24f3fdf-4a87-4b41-90c4-f1fc52436c21" version="1.5.7">
 
 	<Properties>
-	<Name>GDG's Builder Every Wonder Boost for chosen Civ</Name>
+	<Name>GDG's Builder Every Wonder Boost for Chosen Civ</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>Wonder Boost for every Wonders.</Teaser>
 		<Description>Allows your Chosen Civ to Wonder Boost every wonder in every Eras.</Description>
@@ -10,24 +10,24 @@
 		<SpecialThanks>NycholusV</SpecialThanks>
 	</Properties>
 
-	<Settings>
-		<Custom id="GDG_WonderBuilderBoost">
-			<Items>
-				<Component>GDG_WonderBuilderBoostComponent</Component>
-			</Items>
-		</Custom>
-	</Settings>
-
 	<Files>
 		<File>GDG_Builder_Wonder_Boost.sql</File>
+		<File>GDG_Builder_Wonder_Boost_Text.sql</File>
 	</Files>
 	
+		
 	<Components>
-		<UpdateDatabase id="GDG_WonderBuilderBoostComponent">
+		<UpdateDatabase id="GDG_WonderBuilderBoostDatabase">
 			<Items>
 				<File>GDG_Builder_Wonder_Boost.sql</File>
 			</Items>
 		</UpdateDatabase>
+		
+			<LocalizedText id="GDG_WONDERBOOST_TEXT">
+			  <Items>
+				<File>GDG_Builder_Wonder_Boost_Text.sql</File>
+			  </Items>
+			</LocalizedText>
 	</Components>
-
+	
 </Mod>
