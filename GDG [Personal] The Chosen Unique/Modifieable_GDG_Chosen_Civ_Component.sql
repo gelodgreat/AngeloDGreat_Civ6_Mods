@@ -5,7 +5,7 @@
 -- UPDATE CivilizationTraits SET LeaderType='LEADER_HOJO' WHERE CivilizationType=(SELECT CivilizationType FROM LeaderTraits WHERE LeaderType='LEADER_HOJO');
 -- DELETE FROM CivilizationTraits WHERE CivilizationType='CIVILIZATION_AUSTRALIA' AND LeaderType='LEADER_HOJO';
 DELETE FROM LeaderTraits WHERE LeaderType='LEADER_HOJO';
-DELETE FROM CivilizationTraits WHERE CivilizationType='CIVILIZATION_AUSTRALIA';
+DELETE FROM CivilizationTraits WHERE CivilizationType='CIVILIZATION_JAPAN';
 
 
 INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES
