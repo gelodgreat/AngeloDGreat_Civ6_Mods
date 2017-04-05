@@ -97,9 +97,9 @@ INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATIO
 -- Discount Unit Upgrade
 INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_UNIT_UPGRADE_DISCOUNT','Amount',100);
 --City Growth Rate
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_GROWTH','Amount',2);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_GROWTH','Amount',5);
 --City Tiles
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',0);
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_CITY_TILES','Amount',5);
 -- FOR FUTURE USE
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('','','');	
 -- INSERT INTO ModifierArguments (ModifierId,Name,Value,Extra) VALUES ('','','',-1);	
@@ -144,7 +144,12 @@ INSERT INTO TraitModifiers (TraitType,ModifierId) VALUES ('TRAIT_GDG_CIVILIZATIO
 	
 	
 	
-	
+--HEAL UNIT AFTER COMBAT	
+INSERT INTO Types (Type,Kind) VALUES ('TRAIT_GDG_CIVILIZATION_HEAL_UNIT','KIND_TRAIT');
+INSERT INTO Modifiers (ModifierId,ModifierType) VALUES ('TRAIT_GDG_CIVILIZATION_HEAL','MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT');
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_GDG_CIVILIZATION_HEAL','Amount',75);	
+INSERT INTO Traits (TraitType,Name,Description) VALUES ('TRAIT_GDG_CIVILIZATION_HEAL_UNIT','LOC_TRAIT_GDG_CIVILIZATION_CIVILIZATION_HEAL_UNIT_NAME','LOC_TRAIT_GDG_CIVILIZATION_CIVILIZATION_HEAL_UNIT_DESCRIPTION');	
+INSERT INTO TraitModifiers (TraitType,ModifierId) VALUES ('TRAIT_GDG_CIVILIZATION_HEAL_UNIT','TRAIT_GDG_CIVILIZATION_HEAL');	
 
 		
 	
