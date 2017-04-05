@@ -15,17 +15,17 @@ INSERT INTO LeaderTraits (LeaderType,TraitType) VALUES
 																					  --NEW WONDER PRODUCTION	
 																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_WONDER_PRODUCTION'),
 																					  --NEW District PRODUCTION	
-																					  -- ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
+																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_DISTRICT_PRODUCTION'),
 																					  --NEW Building Production
-																					  -- ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
+																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_BUILDING_PRODUCTION'),
 																					  -- Discount Unit Upgrade
 																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_UNIT_UPGRADE_DISCOUNT'),
 																					  --City Growth Rate
-																					  -- ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_CITY_GROWTH'),
+																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_CITY_GROWTH'),
 																					  --City Tiles
-																					  -- ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_CITY_TILES'),
+																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_CITY_TILES'),
 																					  --City Production
-																					  -- ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_PRODUCTION'),
+																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_PRODUCTION'),
 																					  --TRADE
 																					  ('LEADER_JOHN_CURTIN','TRAIT_GDG_CIVILIZATION_TRADE_YIELDS'),
 																					  --PURCHASE USING FAITH
