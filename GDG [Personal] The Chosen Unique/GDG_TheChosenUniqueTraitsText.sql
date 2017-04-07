@@ -17,7 +17,7 @@ VALUES
 	('LOC_TRAIT_ALL_SUZERAIN_BONUSES_NAME', 'en_US', 'GDG Suzerain Bonuses'),
 	('LOC_TRAIT_GDG_CULTURE_BOMB_IMPROVEMENTS_NAME', 'en_US', 'GDG Culture Boooooomb'),
 	('LOC_TRAIT_GDG_CIVILIZATION_TRADE_YIELDS_NAME', 'en_US', 'GDG Trade Yields'),
-	('LOC_TRAIT_GDG_CIVILIZATION_CIVILIZATION_HEAL_UNIT_NAME', 'en_US', 'GDG Iron Soldiers'),
+	('LOC_TRAIT_GDG_IRON_SOLDIERS_NAME', 'en_US', 'GDG Iron Soldiers'),
 	('LOC_TRAIT_GDG_CIVILIZATION_PURCHASE_UNITS_FAITH_NAME', 'en_US', 'GDG Faith Currency');
 	
 
@@ -41,7 +41,7 @@ VALUES
 	('LOC_TRAIT_ALL_SUZERAIN_BONUSES_DESCRIPTION', 'en_US', 'Gives Suzerain Bonus of each City-State.'),
 	('LOC_TRAIT_GDG_CULTURE_BOMB_IMPROVEMENTS_DESCRIPTION', 'en_US', 'Culture Bomb when building improvements.'),
 	('LOC_TRAIT_GDG_CIVILIZATION_TRADE_YIELDS_DESCRIPTION', 'en_US', 'Provides Extra Bonus in trading.'),
-	('LOC_TRAIT_GDG_CIVILIZATION_CIVILIZATION_HEAL_UNIT_DESCRIPTION', 'en_US', 'Heal Units after combat'),
+	('LOC_TRAIT_GDG_IRON_SOLDIERS_DESCRIPTION', 'en_US', 'Heal Units after combat and Additional Damage to Wounded Infidels.'),
 	('LOC_TRAIT_GDG_CIVILIZATION_PURCHASE_UNITS_FAITH_DESCRIPTION', 'en_US', 'Gives the ability to purchase units using faith.');
 	
 	
