@@ -1,26 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.4.4">
-
 	<Properties>
-	<Name>GDG's The Chosen Unique</Name>
+		<Name>GDG's The Chosen Unique</Name>
 		<Stability>Alpha</Stability>
 		<Teaser>Gives Civilization a type of uniques.</Teaser>
 		<Description>Gives Civilization a type of uniques from other civs.</Description>
 		<Authors>GeloDGreat</Authors>
 		<SpecialThanks>chiphead for the fix of exclamation mark. Deliverator for MOAR Units</SpecialThanks>
 	</Properties>
-	
 	<Dependencies>
-		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" minversion="0" maxversion="999" title="Even Moar Units! Australia"/> 	
-		<Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9" minversion="0" maxversion="999" title="Even Moar Units! The Aztecs"/> 	
-		<Mod id="c5b55307-24bf-4952-ad64-5708fd67faec" minversion="0" maxversion="999" title="Even Moar Units! Poland"/> 	
+		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" minversion="0" maxversion="999" title="Even Moar Units! Australia"/>
+		<Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9" minversion="0" maxversion="999" title="Even Moar Units! The Aztecs"/>
+		<Mod id="c5b55307-24bf-4952-ad64-5708fd67faec" minversion="0" maxversion="999" title="Even Moar Units! Poland"/>
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" minversion="0" maxversion="999" title="Moar Units" />
 		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
 		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
 		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
 		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
 	</Dependencies>
-	
+	<References />
+	<Blocks />
+	<Components>
+		<UpdateDatabase id="GDG_TheChosenUniqueDatabase">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Items>
+				<File>GDG_TheChosenUniqueTraits.sql</File>
+				<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
+				<File>GDG_TheChosenColors.sql</File>
+				<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_AirFighter_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_Anti-Cavalry_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_HeavyCavalry_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_LightCavalry_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_MeleeUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_NavalMelee_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_NavalRanged_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_NavalRaider_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_RangedUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
+				<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
+				<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
+				<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
+				<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
+				<File>GDG_Culture_Bomb_Improvements.sql</File>
+				<File>Modif_Leader_Traits.sql</File>
+				<File>Modif_CIvilization_Traits.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="GDG_PersonalUnique_Text">
+			<Items>
+				<File>GDG_TheChosenUniqueTraitsText.sql</File>
+			</Items>
+		</LocalizedText>
+	</Components>
 	<Files>
 		<File>GDG_TheChosenUniqueTraits.sql</File>
 		<File>GDG_TheChosenUniqueTraitsText.sql</File>
@@ -45,52 +82,7 @@
 		<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
 		<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
 		<File>GDG_Culture_Bomb_Improvements.sql</File>
-		<File>Modifieable_GDG_Chosen_Civ_Component.sql</File>
-		<File>GDG_BAU.dep</File>
+		<File>Modif_Leader_Traits.sql</File>
+		<File>Modif_CIvilization_Traits.sql</File>
 	</Files>
-	
-	<Components>
-		<UpdateDatabase id="GDG_TheChosenUniqueDatabase">
-			<Items>
-					<File>Modifieable_GDG_Chosen_Civ_Component.sql</File>
-					<File>GDG_TheChosenUniqueTraits.sql</File>
-					<File>GDG_TheChosenUniqueSuzerainBonuses.sql</File>
-					<File>GDG_TheChosenColors.sql</File>
-					<File>GDG_TheChosenUniqueTraits_AirBomber_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_AirFighter_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_Anti-Cavalry_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_HeavyCavalry_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_LightCavalry_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_MeleeUnit_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_NavalMelee_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_NavalRanged_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_NavalRaider_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_RangedUnit_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_SiegeUnit_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_SupportUnit_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_ExtraUnits_AfterProduction.sql</File>
-					<File>GDG_TheChosenUniqueTraits_Building_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_City_Production.sql</File>
-					<File>GDG_TheChosenUniqueTraits_Trade_Yields.sql</File>
-					<File>GDG_TheChosenUniqueTraits_PurchaseUsing_Faith.sql</File>
-					<File>GDG_TheChosenUniqueTraits_MO_IP_RSD_RSS.sql</File>
-					<File>GDG_Culture_Bomb_Improvements.sql</File>
-			</Items>
-		</UpdateDatabase>
-		
-		<ModArt id="GDG_ChosenArt">
-			<Items>
-				<File>GDG_BAU.dep</File>
-			</Items>
-		</ModArt>
-		
-			<LocalizedText id="GDG_PersonalUnique_Text">
-			  <Items>
-				<File>GDG_TheChosenUniqueTraitsText.sql</File>
-			  </Items>
-			</LocalizedText>
-	</Components>
-	
-	
-	
 </Mod>

@@ -9,9 +9,9 @@ INSERT INTO Modifiers (ModifierId,ModifierType,SubjectRequirementSetId) VALUES (
 																			   ('TRAIT_CIVILIZATION_GDG_RELIGION_SPREAD_DISTANCE','MODIFIER_PLAYER_RELIGION_ADJUST_RELIGIOUS_SPREAD_DISTANCE',null),
 																			   ('TRAIT_CIVILIZATION_GDG_RELIGION_SPREAD_STRENGTH','MODIFIER_PLAYER_RELIGION_ADJUST_RELIGIOUS_SPREAD_STRENGTH',null);
 
-INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_INFLUENCE_POINTS','Amount',30),
-															 ('TRAIT_CIVILIZATION_GDG_RELIGION_SPREAD_DISTANCE','DistanceChange',90), 															
-															 ('TRAIT_CIVILIZATION_GDG_RELIGION_SPREAD_STRENGTH','SpreadMultiplier',90); 			
+INSERT INTO ModifierArguments (ModifierId,Name,Value) VALUES ('TRAIT_CIVILIZATION_GDG_INFLUENCE_POINTS','Amount',40),
+															 ('TRAIT_CIVILIZATION_GDG_RELIGION_SPREAD_DISTANCE','DistanceChange',80), 															
+															 ('TRAIT_CIVILIZATION_GDG_RELIGION_SPREAD_STRENGTH','SpreadMultiplier',80); 			
 
 --Traits
 INSERT INTO Traits (TraitType,Name,Description) VALUES    ('TRAIT_GDG_CIVILIZATION_MO_IP_RSD_RSS','LOC_GDG_CIVILIZATION_MO_IP_RSD_RSS_NAME',                                                          'LOC_GDG_CIVILIZATION_MO_IP_RSD_RSS_DESCRIPTION');	 						 
