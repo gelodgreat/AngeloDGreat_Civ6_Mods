@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.4.4">
+<Mod id="4ead703c-3d6c-4cb4-b0da-8d0ff20ac919" version="2.5.0">
     <Properties>
         <Name>GDG's The Chosen Unique</Name>
         <Stability>Alpha</Stability>
@@ -8,6 +8,7 @@
         <Authors>GeloDGreat</Authors>
         <SpecialThanks>chiphead for the fix of exclamation mark. Deliverator for MOAR Units</SpecialThanks>
         <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <Dependencies>
         <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
@@ -15,18 +16,18 @@
         <Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
         <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
         <Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
-        <Mod id="46a14591-6338-4567-ad3e-8c18f135ca09" title="CIVITAS Philippines"/>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Gathering Storm" />
     </Dependencies>
     <References />
     <Blocks />
     <ActionCriteria>
-        <Criteria id="Expansion1">
-            <GameCoreInUse>Expansion1</GameCoreInUse>
+        <Criteria id="Expansion2">
+            <GameCoreInUse>Expansion2</GameCoreInUse>
         </Criteria>
     </ActionCriteria>
     <InGameActions>
         <UpdateDatabase id="GDG_TheChosenUniqueDatabase">
-            <Criteria>Expansion1</Criteria>
+            <Criteria>Expansion2</Criteria>
             <Properties>
                 <LoadOrder>900</LoadOrder>
             </Properties>
